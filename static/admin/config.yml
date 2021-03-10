@@ -1,6 +1,6 @@
 backend:
-  name: hungdomanh95
-  repo: myblog
+  name: github
+  repo: hungdomanh95/myblog
 
 media_folder: content/assets
 public_folder: ../assets

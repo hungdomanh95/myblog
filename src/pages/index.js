@@ -1,16 +1,14 @@
 import React, { Fragment } from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import "../scss/index.scss"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
-import About from "./about"
 import Header from "./Header"
-
+import Home from "./home"
+import { Route, Switch, BrowserRouter,Link } from "react-router-dom";
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "Gatsby Starter Personal Website"
-
     return (
       <Fragment>
         <SEO
@@ -19,8 +17,10 @@ class IndexPage extends React.Component {
         />
         <div className='page'>
           <div className='container'>
+          <BrowserRouter>
             <Header/>
-            <About/>
+            <Home/>
+          </BrowserRouter>
           </div>
         </div>
      

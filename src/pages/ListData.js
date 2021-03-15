@@ -61,26 +61,26 @@ export const inforMySelfRight = [
   },
   {
     id: 2,
-    name: "Love Soft drinks",
-    images: "images/coffee.png",
-    content: "Soft drinks + Me = Happiness",
+    name: "Love Technology",
+    images: "images/technology.png",
+    content: "Technology + Me = Happiness",
   },
   {
     id: 3,
-    name: "Socially Awkward",
-    images: "images/meeting.png",
-    content: "At times",
+    name: "Sport",
+    images: "images/sport.png",
+    content: "Badminton, Running",
   },
   {
     id: 4,
-    name: "Love Riding",
-    images: "images/motorcycle.png",
-    content: "Biker for life",
+    name: "Love Traveling",
+    images: "images/maps.png",
+    content: "Travel for life",
   },
   {
     id: 5,
     name: "Self Taught Programmer",
-    images: "images/web.png",
+    images: "images/workspace.png",
     content: "Thanks to the Web Resources",
   },
   {
@@ -88,5 +88,42 @@ export const inforMySelfRight = [
     name: "Pursued B.Tech in",
     images: "images/graduation.png",
     content: "HCM City University Of Transport",
+  },
+]
+export const mySkill = [
+  {
+    id:1,
+    name:"HTML",
+    images:"images/html.png"
+  },
+  {
+    id:2,
+    name:"CSS",
+    images:"images/css.png"
+  },
+  {
+    id:3,
+    name:"JavaScript",
+    images:"images/javascript.png"
+  },
+  {
+    id:4,
+    name:"ReactJs",
+    images:"images/react.png"
+  },
+  {
+    id:5,
+    name:"ReactNative",
+    images:"images/react_native.png"
+  },
+  {
+    id:6,
+    name:"GitHub",
+    images:"images/github.png"
+  },
+  {
+    id:7,
+    name:"NodeJs",
+    images:"images/nodejs.png"
   },
 ]

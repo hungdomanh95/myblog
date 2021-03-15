@@ -1,4 +1,36 @@
-.header{
-    height: 5%;
-    // background-color: greenyellow;
+.header {
+  height: 7%;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .header-item {
+    background-color: white;
+    height:100% ;
+    // width: 50%;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    .cover-menu {
+      position: absolute;
+      height: 101%;
+      right: 99%;
+    }
+    .menu {
+      // display: grid;
+      // grid-template-columns: 50% 50%;
+      // width: 50%;
+      margin: 0 auto;
+      text-align: center;
+      a {
+        text-decoration: none;
+        box-shadow: none;
+        color: #5f6f81;
+        padding: 0.6rem 1rem;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
+  }
 }

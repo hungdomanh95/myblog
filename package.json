@@ -45,7 +45,9 @@
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typography-theme-wordpress-2016": "^0.16.19",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8"
   },
   "devDependencies": {
     "gatsby-cli": "^2.12.66",

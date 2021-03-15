@@ -1,0 +1,66 @@
+.home {
+  background-color: white;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  height: 93%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  padding: 2%;
+  .inforLeft {
+    .avatar {
+      // width: 80%;
+      flex-direction: column;
+      @include flexCenter();
+      img {
+        transform: scaleX(-1);
+        width: 70%;
+      }
+      .name {
+        color: #44566c;
+        font-weight: 200;
+        letter-spacing: 2px;
+      }
+      .badge {
+        background-color: #e9edf0;
+        color: #44566c;
+        margin-top: 2rem;
+        font-size: 16;
+        // font-weight: bold;
+        border-radius: 10rem;
+        padding: 0.6rem 1rem;
+      }
+    }
+    .infor-social {
+      width: 70%;
+      margin: 2rem auto;
+      @include flexCenter();
+      justify-content: space-evenly;
+      .infor-social-item {
+        @include flexCenter();
+        color: #7a7a7a;
+        text-decoration: none;
+        box-shadow: none;
+        font-size: 25px;
+      }
+    }
+    .infor-mySelfLeft {
+      line-height: 2rem;
+      width: 85%;
+      margin: 2rem auto;
+      span {
+        margin: 0.5rem;
+      }
+    }
+    .my-skill{
+      width: 70%;
+      margin: 4rem auto;
+      .advanced,.basic{
+        display: flex;
+        justify-content: center;
+        img{
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+  }
+}

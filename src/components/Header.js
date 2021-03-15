@@ -1,9 +1,8 @@
 import React,{Fragment} from 'react'
-import { Route, Switch, BrowserRouter } from "react-router-dom";
 import { Link } from "gatsby"
-import About from './about'
-import Blog from './blog'
-import Project from './Project'
+import About from '../pages/about'
+import Blog from '../pages/blog'
+import Project from '../pages/Project'
 var arr = [
     {
       id:1,
@@ -13,16 +12,16 @@ var arr = [
     },
     {
       id:2,
+      name:"Blog",
+      link:"/blog",
+      component:Blog
+    },
+    {
+      id:3,
       name:"Project",
       link:"/Project",
       component:Project
     },
-    // {
-    //   id:3,
-    //   name:"Project",
-    //   link:"/project",
-    //   component:ReactJs
-    // },
   ]
 const Header = () => {
     return (

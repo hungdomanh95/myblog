@@ -1,10 +1,15 @@
 import React from 'react'
-
+import { Link } from "gatsby"
+import Layout from '../components/layout';
+import Button from "../components/button"
 const Project = () => {
     return (
-        <div>
+        <Layout>
             Project
-        </div>
+            <Link to="/">
+                <Button marginTop="85px">Go Home</Button>
+            </Link>
+        </Layout>
     )
 }
 

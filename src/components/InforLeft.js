@@ -1,5 +1,5 @@
 import React from 'react'
-import {inforSocial,inforMySelfLeft,mySkill} from "./ListData"
+import {inforSocial,inforMySelfLeft,mySkill} from "../pages/ListData"
 const InforLeft = () => {
     return (
         <div className='inforLeft' >

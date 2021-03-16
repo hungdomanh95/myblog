@@ -17,16 +17,18 @@ class Blog extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <Bio />
-        <SearchPosts
-          posts={posts}
-          localSearchBlog={localSearchBlog}
-          navigate={navigate}
-          location={location}
-        />
-        <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
-        </Link>
+        {/* <Bio /> */}
+        <div className='blog' >
+          <SearchPosts
+            posts={posts}
+            localSearchBlog={localSearchBlog}
+            navigate={navigate}
+            location={location}
+          />
+          <Link to="/">
+            <Button>Go Home</Button>
+          </Link>
+        </div>
       </Layout>
     )
   }

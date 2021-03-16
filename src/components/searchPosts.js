@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import { useFlexSearch } from "react-use-flexsearch"
 import * as queryString from "query-string"
-
+import '../scss/index.scss'
 import { rhythm } from "../utils/typography"
 
 const SearchBar = styled.div`
@@ -77,7 +77,7 @@ const SearchedPosts = ({ results }) =>
   )
 
 const AllPosts = ({ posts }) => (
-  <div style={{ margin: "20px 0 40px" }}>
+  <div className='allPost' >
     {posts.map(({ node }) => {
       const title = node.frontmatter.title || node.fields.slug
       return (

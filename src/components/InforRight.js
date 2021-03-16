@@ -2,7 +2,7 @@ import React from 'react'
 
 const InforRight = ({children}) => {
     return (
-        <div>
+        <div className='inforRight' >
             <main>{children}</main>
         </div>
     )

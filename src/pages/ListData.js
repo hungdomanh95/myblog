@@ -56,74 +56,75 @@ export const inforMySelfRight = [
   {
     id: 1,
     name: "Born and bought up in",
-    images: "images/location.png",
+    images: "../../static/images/location.png",
     content: "Gia Lai Province, VietNam",
   },
   {
     id: 2,
-    name: "Love Technology",
-    images: "images/technology.png",
-    content: "Technology + Me = Happiness",
+    name: "Pursued B.Tech in",
+    images: "../../static/images/graduation.png",
+    content: "HCM City University Of Transport",
   },
   {
     id: 3,
     name: "Sport",
-    images: "images/sport.png",
+    images: "../../static/images/sport.png",
     content: "Badminton, Running",
   },
   {
     id: 4,
-    name: "Love Traveling",
-    images: "images/maps.png",
-    content: "Travel for life",
+    name: "Love Technology",
+    images: "../../static/images/technology.png",
+    content: "Technology + Me = Happiness",
   },
   {
     id: 5,
-    name: "Self Taught Programmer",
-    images: "images/workspace.png",
-    content: "Thanks to the Web Resources",
+    name: "Love Traveling",
+    images: "../../static/images/maps.png",
+    content: "Travel for life",
   },
   {
     id: 6,
-    name: "Pursued B.Tech in",
-    images: "images/graduation.png",
-    content: "HCM City University Of Transport",
+    name: "Love Activities",
+    images: "../../static/images/event.png",
+    content: "Volunteer, Camp-fire",
   },
+  
 ]
 export const mySkill = [
   {
     id:1,
     name:"HTML",
-    images:"images/html.png"
+    images:"../../static/images/html.png"
   },
   {
     id:2,
     name:"CSS",
-    images:"images/css.png"
+    images:"../../static/images/css.png"
   },
   {
     id:3,
     name:"JavaScript",
-    images:"images/javascript.png"
+    images:"../../static/images/javascript.png"
   },
   {
     id:4,
     name:"ReactJs",
-    images:"images/react.png"
+    images:"../../static/images/react.png"
   },
   {
     id:5,
     name:"ReactNative",
-    images:"images/react_native.png"
-  },
-  {
-    id:6,
-    name:"GitHub",
-    images:"images/github.png"
+    images:"../../static/images/react_native.png"
   },
   {
     id:7,
     name:"NodeJs",
-    images:"images/nodejs.png"
+    images:"../../static/images/nodejs.png"
+  },
+  {
+    id:6,
+    name:"GitHub",
+    images:"../../static/images/github.png"
   },
 ]

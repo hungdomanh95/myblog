@@ -4,7 +4,7 @@ const InforLeft = () => {
     return (
         <div className='inforLeft' >
             <div className='avatar'>
-                <img src="images/timestope.png" />
+                <img src="../../static/images/timestope.png" />
                 <h3 className='name' >DoHung1995</h3>
                 <div className='badge' ><p>Electric Engineer</p></div>
             </div>
@@ -42,7 +42,7 @@ const InforLeft = () => {
                     {mySkill.slice(4,7).map(item=>{
                         return(
                             <div>
-                                <img src={item.images} alt={item.name} style={{width:"70%"}} />
+                                <img src={item.images} alt={item.name} />
                             </div>
                         )
                     })}

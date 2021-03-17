@@ -1,4 +1,4 @@
-import React,{Fragment} from 'react'
+import React,{useState} from 'react'
 import { Link } from "gatsby"
 import About from '../pages/about'
 import Blog from '../pages/blog'
@@ -24,13 +24,15 @@ var arr = [
     },
   ]
 const Header = () => {
+
     return (
         <div className='header' >
             <div className='header-item'>
                 <img className='cover-menu' alt='cover-menu'  src="../../static/images/nav-edge.svg"  />
                 <div className='menu'>
-                    {arr.map((item)=>{
-                        return <Link key={item.id} to ={item.link} >{item.name}</Link>
+                    {arr.map((item,index)=>{
+                        // return <Link key={item.id} to ={item.link} className={status === index  ? 'menu-item active' : 'menu-item'} onClick={()=>setIndex(index)}>{item.name}</Link>
+                        return <Link key={item.id} to ={item.link} className={'menu-item'} >{item.name}</Link>
                     })}
                 </div>
             </div>
